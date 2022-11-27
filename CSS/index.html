@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Education Website using HTML CSS JS</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,300;1,500;1,600;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css1/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css"
+    />
+
+    <!--=====================Swiper================================================-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <style>
+      body {
+        background-image: url(./images/backg.jpg)
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html"><h4>Dubbaans University</h4></a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Course</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uis uis-bars"></i></button>
+        <button id="close-menu-btn"><i class="uis uis-multiply"></i></button>
+      </div>
+    </nav>
+    <header>
+      <div class="container header__container">
+        <div class="header__left">
+          <h1>Grow your skills to advance your career path</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            magni obcaecati iste ipsum dolorem, aliquam reprehenderit quos aut.
+            Fugit, asperiores!
+          </p>
+          <a href="courses.html" class="btn btn-primary">Get started</a>
+        </div>
+        <div class="header__right">
+          <div class="header__right-image">
+            <img src="./images/h4.png" alt="header image" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--======================END OF HEADER======================*/-->
+    <section class="categories">
+      <div class="container categories__container">
+        <div class="categories__left">
+          <h1>Categories</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius rerum
+            repudiandae provident praesentium ducimus incidunt beatae mod.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="categories__right">
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-brands fa-ethereum"></i
+            ></span>
+            <h5>Blockchain</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              voluptates.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-desktop"></i
+            ></span>
+            <h5>Front-end</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              voluptates.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-server"></i
+            ></span>
+            <h5>Back-End</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              voluptates.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-sharp fa-solid fa-user-secret"></i
+            ></span>
+            <h5>Hacking</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              voluptates.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-cloud"></i
+            ></span>
+            <h5>Cloud Computing</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              voluptates.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category__icon"
+              ><i class="fa-solid fa-hat-wizard"></i
+            ></span>
+            <h5>Black Magic</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              voluptates.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!--=====================END OF CATEOGORIES===========-->
+
+    <section class="courses">
+      <h2>Our Popular Courses</h2>
+      <div class="container courses__container">
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/c2alt.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Web 3.0</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              iusto quod aperiam.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/c2.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Hacking the Universe</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              iusto quod aperiam.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/c4.jpg" />
+          </div>
+          <div class="course__info">
+            <h4>Generating Images with AI</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              iusto quod aperiam.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--=====================END OF COURSES==================-->
+
+    <section class="faqs">
+      <h2>Frequenty Asked Questions</h2>
+      <div class="container faqs__container">
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              exercitationem?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              exercitationem?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              exercitationem?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              exercitationem?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              exercitationem?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              exercitationem?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              exercitationem?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              exercitationem?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              exercitationem?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+          <div class="question__answer">
+            <h4>How do I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+              exercitationem?
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--=====================END OF FAQS=============-->
+
+    <section class="container testimonials__container mySwiper">
+      <h2>Students Testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar22.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>GP Muthu</h5>
+            <small>Influencer</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Eeh Enaku oru Manu Theriyaathu lae Yen lae ipdi panringa kiruku mental paiyalovola
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar1.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Mr.Yogi</h5>
+            <small>Comedian</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Enake vibuthi adika paathala
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar3.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Thomas Shelby OBE</h5>
+            <small>Gangster(Birmingham,UK)</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Course Join panalana bullet un thala vazhiya varum.Ena Thamib purincha?
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar 5.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Gal Gadot</h5>
+            <small>Actress</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              What a awesome course !!!!!!
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/ava5.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Sudhakar</h5>
+            <small>Influencer</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Ena Ena solran parunga kambi kattra kadai laan solran
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar6.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Professor</h5>
+            <small>Mastermind(Spain)</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Course join panalana unaku sketch poturuven
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar7.jpg" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Kathu Karupu Kalai</h5>
+            <small>Youtuber</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Yarra neengalam Ungalalelam paatha paavam iruku da net selvu panni engala pathutu irunkigale
+            </p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/avatar 8.png" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Uncle</h5>
+            <small>Soccerer(China)</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Cho ma babi babi saa Cho ma babi babi saa dei course join panra mantram da ithu
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!--===========================END OF TESTIMONIAL================-->
+
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"
+            ><h4>Dubbaans University</h4></a
+          >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+            voluptas.
+          </p>
+        </div>
+        <div class="footer__2">
+          <h4>PermaLinks</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__3">
+          <h4>Privacy</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>+91 6382934342</p>
+            <p>aswathas20@gmailcom</p>
+          </div>
+
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>  
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; Dubbaans University</small>
+     </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // when window is >=600px
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
